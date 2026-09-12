@@ -1,0 +1,265 @@
+[
+  {
+    "id": "single-card",
+    "name": "一张牌的低语",
+    "cardCount": 1,
+    "difficulty": 1,
+    "when_to_use": "聚焦一个清晰的问题，练习从画面走向理解。",
+    "positions": [
+      {
+        "index": 1,
+        "label": "当下的提醒",
+        "x": 50,
+        "y": 50,
+        "question": "此刻最值得留意的状态是什么？"
+      }
+    ],
+    "reading_tips": "先描述画面，再连接问题，最后写出一个可实践的提醒。",
+    "common_mistakes": "把一张牌解释成所有事情，或仅凭好坏下结论。"
+  },
+  {
+    "id": "three-card-time",
+    "name": "时间之流",
+    "cardCount": 3,
+    "difficulty": 1,
+    "when_to_use": "理解一件事的来处、当下与发展趋势。",
+    "positions": [
+      {
+        "index": 1,
+        "label": "过去",
+        "x": 20,
+        "y": 50,
+        "question": "哪些过往经验影响了现在？"
+      },
+      {
+        "index": 2,
+        "label": "现在",
+        "x": 50,
+        "y": 50,
+        "question": "当前的核心状态和可调整之处是什么？"
+      },
+      {
+        "index": 3,
+        "label": "未来",
+        "x": 80,
+        "y": 50,
+        "question": "如果沿着当前轨迹，可能怎样发展？"
+      }
+    ],
+    "reading_tips": "先看元素与重复主题，再逐位解读，最后串成一条发展线。",
+    "common_mistakes": "将未来当成不可改变的结局。"
+  },
+  {
+    "id": "choice",
+    "name": "岔路口",
+    "cardCount": 5,
+    "difficulty": 2,
+    "when_to_use": "看清两种选择各自的动力与可能代价。",
+    "positions": [
+      {
+        "index": 1,
+        "label": "当下",
+        "x": 50,
+        "y": 78,
+        "question": "做决定时的真正需求是什么？"
+      },
+      {
+        "index": 2,
+        "label": "选择甲·过程",
+        "x": 28,
+        "y": 50,
+        "question": "选择甲需要经历或投入什么？"
+      },
+      {
+        "index": 3,
+        "label": "选择甲·趋势",
+        "x": 20,
+        "y": 20,
+        "question": "甲的当前发展趋势是什么？"
+      },
+      {
+        "index": 4,
+        "label": "选择乙·过程",
+        "x": 72,
+        "y": 50,
+        "question": "选择乙需要经历或投入什么？"
+      },
+      {
+        "index": 5,
+        "label": "选择乙·趋势",
+        "x": 80,
+        "y": 20,
+        "question": "乙的当前发展趋势是什么？"
+      }
+    ],
+    "reading_tips": "对照两条路径的过程与趋势，回到自身价值观做决定。",
+    "common_mistakes": "只选看起来更好的结果牌，忽略过程与自身需求。"
+  },
+  {
+    "id": "body-mind-spirit",
+    "name": "身心灵",
+    "cardCount": 3,
+    "difficulty": 1,
+    "when_to_use": "观察身体、思维与内在价值如何相互影响。",
+    "positions": [
+      {
+        "index": 1,
+        "label": "身体",
+        "x": 20,
+        "y": 50,
+        "question": "日常节奏与身体需求提示了什么？"
+      },
+      {
+        "index": 2,
+        "label": "心智",
+        "x": 50,
+        "y": 50,
+        "question": "什么想法正在影响感受与行动？"
+      },
+      {
+        "index": 3,
+        "label": "灵性",
+        "x": 80,
+        "y": 50,
+        "question": "内在价值或意义感需要怎样的滋养？"
+      }
+    ],
+    "reading_tips": "先分别描述三个层面，再找出它们的支持或拉扯。",
+    "common_mistakes": "把身体牌当成疾病诊断，或把灵性说得脱离生活。"
+  },
+  {
+    "id": "relationship-star",
+    "name": "关系六芒星",
+    "cardCount": 6,
+    "difficulty": 2,
+    "when_to_use": "练习理解关系中的不同视角、互动与共同课题。",
+    "positions": [
+      {
+        "index": 1,
+        "label": "我的状态",
+        "x": 50,
+        "y": 16,
+        "question": "我带着什么期待进入关系？"
+      },
+      {
+        "index": 2,
+        "label": "对方视角",
+        "x": 77,
+        "y": 34,
+        "question": "从另一种视角可能如何理解互动？"
+      },
+      {
+        "index": 3,
+        "label": "互动基础",
+        "x": 77,
+        "y": 68,
+        "question": "关系建立在什么共同经验上？"
+      },
+      {
+        "index": 4,
+        "label": "支持因素",
+        "x": 50,
+        "y": 84,
+        "question": "什么因素支持沟通？"
+      },
+      {
+        "index": 5,
+        "label": "阻碍因素",
+        "x": 23,
+        "y": 68,
+        "question": "什么模式阻碍理解？"
+      },
+      {
+        "index": 6,
+        "label": "成长方向",
+        "x": 23,
+        "y": 34,
+        "question": "可以共同练习怎样的改变？"
+      }
+    ],
+    "reading_tips": "先看双方视角，再连结支持与阻碍，最后提出可沟通的问题。",
+    "common_mistakes": "声称能凭牌确定对方的隐秘想法；把练习当成读心。"
+  },
+  {
+    "id": "celtic-cross",
+    "name": "凯尔特十字",
+    "cardCount": 10,
+    "difficulty": 3,
+    "when_to_use": "从多个层次分析复杂情境，练习整合十个牌位。",
+    "positions": [
+      {
+        "index": 1,
+        "label": "现状",
+        "x": 37,
+        "y": 46,
+        "question": "情境的核心是什么？"
+      },
+      {
+        "index": 2,
+        "label": "交叉影响",
+        "x": 37,
+        "y": 46,
+        "question": "什么力量构成挑战或推动？",
+        "rotate": 90
+      },
+      {
+        "index": 3,
+        "label": "根基",
+        "x": 37,
+        "y": 78,
+        "question": "底层动机与未觉察的基础是什么？"
+      },
+      {
+        "index": 4,
+        "label": "过去",
+        "x": 13,
+        "y": 46,
+        "question": "哪些过去的影响正在退去？"
+      },
+      {
+        "index": 5,
+        "label": "显意识",
+        "x": 37,
+        "y": 15,
+        "question": "目前意识到的目标是什么？"
+      },
+      {
+        "index": 6,
+        "label": "近期趋势",
+        "x": 61,
+        "y": 46,
+        "question": "接下来值得关注什么变化？"
+      },
+      {
+        "index": 7,
+        "label": "自我态度",
+        "x": 85,
+        "y": 84,
+        "question": "我如何看待自己在其中的位置？"
+      },
+      {
+        "index": 8,
+        "label": "外部环境",
+        "x": 85,
+        "y": 61,
+        "question": "环境和他人带来哪些条件？"
+      },
+      {
+        "index": 9,
+        "label": "希望与恐惧",
+        "x": 85,
+        "y": 38,
+        "question": "我期待什么，又害怕什么？"
+      },
+      {
+        "index": 10,
+        "label": "整体趋势",
+        "x": 85,
+        "y": 15,
+        "question": "综合来看，当前轨迹指向哪里？"
+      }
+    ],
+    "reading_tips": "先整合中心两张，再看时间线，最后阅读右侧四张并形成总结。",
+    "common_mistakes": "逐张堆砌牌义，忽略牌位之间的关系；把趋势当成定论。"
+  }
+]

@@ -1,0 +1,21 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const memory=new Map();globalThis.localStorage={getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v)};
+const store=await import('../js/store.js');const {parseJSON,consumeSSE,call}=await import('../js/ai/client.js');const {validateTasks,validateGrade,gradeRecord}=await import('../js/views/homework.js');
+let checks=0;function test(name,fn){fn();checks++;console.log('✓',name);}
+const cards=JSON.parse(fs.readFileSync(new URL('../data/cards.json',import.meta.url))).cards;
+test('凌晨四点边界与跨年',()=>{assert.equal(store.today(new Date(2026,0,1,3,59)),'2025-12-31');assert.equal(store.today(new Date(2026,0,1,4,0)),'2026-01-01');assert.equal(store.addDays('2026-03-08',1),'2026-03-09');});
+test('78张牌与图片映射',()=>{assert.equal(cards.length,78);assert.equal(new Set(cards.map(c=>c.id)).size,78);for(const c of cards)assert.ok(fs.existsSync(c.image));});
+test('六个牌阵坐标及牌位数量',()=>{const spreads=JSON.parse(fs.readFileSync('data/spreads.json'));assert.equal(spreads.length,6);for(const s of spreads){assert.equal(s.cardCount,s.positions.length);for(const p of s.positions)assert.ok(p.x>=0&&p.x<=100&&p.y>=0&&p.y<=100);}});
+const task={id:1,type:'recall',cards:['major-00'],prompt:'描述愚者',hint:'观察',rubric:'开始与潜能'};
+test('AI题目拒绝无效牌、重复ID及缺失rubric',()=>{validateTasks({tasks:[task],focus:'开始'},cards,1);assert.throws(()=>validateTasks({tasks:[{...task,cards:['major-99']}],focus:''},cards,1));assert.throws(()=>validateTasks({tasks:[task,task],focus:''},cards,2));assert.throws(()=>validateTasks({tasks:[{...task,rubric:''}],focus:''},cards,1));});
+const grade={perTask:[{id:1,score:8,max:10,correct:['理解正确'],missing:[],comment:'继续'}],weakPoints:[],nextFocus:'象征'};
+test('批改校验与分数重算',()=>{validateGrade(grade,[task]);assert.equal(grade.total,8);assert.throws(()=>validateGrade({...grade,perTask:[{...grade.perTask[0],score:11}]},[task]));});
+test('复习按每张牌聚合、间隔升级及重置',()=>{store.applyGrade([task,{...task,id:2}],{perTask:[{id:1,score:10,max:10},{id:2,score:8,max:10}]});let c=store.cardState('major-00');assert.equal(c.reviewCount,1);assert.equal(c.interval,2);assert.equal(c.status,'familiar');store.applyGrade([task],{perTask:[{id:1,score:4,max:10}]});assert.equal(c.interval,1);assert.equal(c.status,'learning');});
+test('损坏备份拒绝且保留当前状态',()=>{assert.throws(()=>store.replace({version:9}));assert.equal(store.cardState('major-00').status,'learning');});
+test('JSON围栏容错',()=>assert.deepEqual(parseJSON('```json\n{"ok":true}\n```'),{ok:true}));
+const bytes=new TextEncoder().encode('data: {"choices":[{"delta":{"content":"星"}}]}\r\n\r\ndata: {"choices":[{"delta":{"content":"语"}}]}\n\ndata: [DONE]\n');
+const stream=new ReadableStream({start(c){for(let i=0;i<bytes.length;i+=3)c.enqueue(bytes.slice(i,i+3));c.close();}});assert.equal(await consumeSSE(stream),'星语');console.log('✓ SSE跨字节中文与换行解析');checks++;
+Object.defineProperty(globalThis,'navigator',{value:{onLine:true},configurable:true});store.state.settings.apiKey='test-only';let requests=0;globalThis.fetch=async()=>{requests++;return new Response(JSON.stringify({choices:[{message:{content:requests===1?'bad json':'{"ok":true}'}}]}),{status:200});};assert.deepEqual(await call({system:'json',user:'test',json:true}),{ok:true});assert.equal(requests,2);console.log('✓ JSON错误仅重试一次');checks++;
+globalThis.fetch=async()=>new Response(JSON.stringify({choices:[{message:{content:JSON.stringify(grade)}}]}));const record={tasks:[task],answers:['新的开始'],status:'pending',spreadId:'test'};store.state.spreads.test={practiced:0,status:'learning'};await gradeRecord(record);const reviewed=store.cardState('major-00').reviewCount;await gradeRecord(record);assert.equal(store.cardState('major-00').reviewCount,reviewed);assert.equal(store.state.spreads.test.practiced,1);console.log('✓ 批改幂等与牌阵练习计数');checks++;
+store.flush();console.log(`${checks} checks passed`);

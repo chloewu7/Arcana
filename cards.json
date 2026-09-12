@@ -1,0 +1,3026 @@
+{
+ "version": 1,
+ "system": "RWS",
+ "cardBack": "Cards-jpg/CardBacks.jpg",
+ "count": 78,
+ "cards": [
+  {
+   "id": "major-00",
+   "name_cn": "愚者",
+   "name_en": "The Fool",
+   "arcana": "major",
+   "suit": null,
+   "number": 0,
+   "image": "Cards-jpg/00-TheFool.jpg",
+   "element": "风",
+   "astro": "天王星",
+   "numerology": "0 — 大阿卡纳序列第 0 阶",
+   "keywords_up": [
+    "新的开始",
+    "冒险",
+    "天真"
+   ],
+   "keywords_rev": [
+    "鲁莽",
+    "逃避",
+    "时机未到"
+   ],
+   "pairs": [],
+   "tags": [
+    "风元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-01",
+   "name_cn": "魔术师",
+   "name_en": "The Magician",
+   "arcana": "major",
+   "suit": null,
+   "number": 1,
+   "image": "Cards-jpg/01-TheMagician.jpg",
+   "element": "风",
+   "astro": "水星",
+   "numerology": "1 — 大阿卡纳序列第 1 阶",
+   "keywords_up": [
+    "意志",
+    "创造",
+    "行动力"
+   ],
+   "keywords_rev": [
+    "操纵",
+    "能力未用",
+    "自欺"
+   ],
+   "pairs": [
+    "major-02"
+   ],
+   "tags": [
+    "风元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-02",
+   "name_cn": "女祭司",
+   "name_en": "The High Priestess",
+   "arcana": "major",
+   "suit": null,
+   "number": 2,
+   "image": "Cards-jpg/02-TheHighPriestess.jpg",
+   "element": "水",
+   "astro": "月亮",
+   "numerology": "2 — 大阿卡纳序列第 2 阶",
+   "keywords_up": [
+    "直觉",
+    "潜意识",
+    "静观"
+   ],
+   "keywords_rev": [
+    "忽视直觉",
+    "秘密",
+    "疏离"
+   ],
+   "pairs": [
+    "major-01"
+   ],
+   "tags": [
+    "水元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-03",
+   "name_cn": "皇后",
+   "name_en": "The Empress",
+   "arcana": "major",
+   "suit": null,
+   "number": 3,
+   "image": "Cards-jpg/03-TheEmpress.jpg",
+   "element": "土",
+   "astro": "金星",
+   "numerology": "3 — 大阿卡纳序列第 3 阶",
+   "keywords_up": [
+    "丰饶",
+    "滋养",
+    "感官"
+   ],
+   "keywords_rev": [
+    "停滞",
+    "过度照顾",
+    "创造力受阻"
+   ],
+   "pairs": [],
+   "tags": [
+    "土元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-04",
+   "name_cn": "皇帝",
+   "name_en": "The Emperor",
+   "arcana": "major",
+   "suit": null,
+   "number": 4,
+   "image": "Cards-jpg/04-TheEmperor.jpg",
+   "element": "火",
+   "astro": "白羊座",
+   "numerology": "4 — 大阿卡纳序列第 4 阶",
+   "keywords_up": [
+    "秩序",
+    "权威",
+    "结构"
+   ],
+   "keywords_rev": [
+    "专制",
+    "僵化",
+    "失去掌控"
+   ],
+   "pairs": [
+    "major-05"
+   ],
+   "tags": [
+    "火元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-05",
+   "name_cn": "教皇",
+   "name_en": "The Hierophant",
+   "arcana": "major",
+   "suit": null,
+   "number": 5,
+   "image": "Cards-jpg/05-TheHierophant.jpg",
+   "element": "土",
+   "astro": "金牛座",
+   "numerology": "5 — 大阿卡纳序列第 5 阶",
+   "keywords_up": [
+    "传统",
+    "教导",
+    "体制"
+   ],
+   "keywords_rev": [
+    "教条",
+    "叛逆",
+    "形式化"
+   ],
+   "pairs": [
+    "major-04"
+   ],
+   "tags": [
+    "土元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-06",
+   "name_cn": "恋人",
+   "name_en": "The Lovers",
+   "arcana": "major",
+   "suit": null,
+   "number": 6,
+   "image": "Cards-jpg/06-TheLovers.jpg",
+   "element": "风",
+   "astro": "双子座",
+   "numerology": "6 — 大阿卡纳序列第 6 阶",
+   "keywords_up": [
+    "结合",
+    "选择",
+    "价值观"
+   ],
+   "keywords_rev": [
+    "失衡",
+    "逃避选择",
+    "诱惑"
+   ],
+   "pairs": [],
+   "tags": [
+    "风元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-07",
+   "name_cn": "战车",
+   "name_en": "The Chariot",
+   "arcana": "major",
+   "suit": null,
+   "number": 7,
+   "image": "Cards-jpg/07-TheChariot.jpg",
+   "element": "水",
+   "astro": "巨蟹座",
+   "numerology": "7 — 大阿卡纳序列第 7 阶",
+   "keywords_up": [
+    "意志前进",
+    "掌控",
+    "胜利"
+   ],
+   "keywords_rev": [
+    "失控",
+    "方向散乱",
+    "蛮干"
+   ],
+   "pairs": [],
+   "tags": [
+    "水元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-08",
+   "name_cn": "力量",
+   "name_en": "Strength",
+   "arcana": "major",
+   "suit": null,
+   "number": 8,
+   "image": "Cards-jpg/08-Strength.jpg",
+   "element": "火",
+   "astro": "狮子座",
+   "numerology": "8 — 大阿卡纳序列第 8 阶",
+   "keywords_up": [
+    "内在力量",
+    "耐心",
+    "勇气"
+   ],
+   "keywords_rev": [
+    "自我怀疑",
+    "压抑",
+    "粗暴"
+   ],
+   "pairs": [
+    "major-07"
+   ],
+   "tags": [
+    "火元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-09",
+   "name_cn": "隐士",
+   "name_en": "The Hermit",
+   "arcana": "major",
+   "suit": null,
+   "number": 9,
+   "image": "Cards-jpg/09-TheHermit.jpg",
+   "element": "土",
+   "astro": "处女座",
+   "numerology": "9 — 大阿卡纳序列第 9 阶",
+   "keywords_up": [
+    "内省",
+    "独处",
+    "寻求真理"
+   ],
+   "keywords_rev": [
+    "孤立",
+    "拒绝指引",
+    "迷失"
+   ],
+   "pairs": [
+    "major-02"
+   ],
+   "tags": [
+    "土元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-10",
+   "name_cn": "命运之轮",
+   "name_en": "Wheel of Fortune",
+   "arcana": "major",
+   "suit": null,
+   "number": 10,
+   "image": "Cards-jpg/10-WheelOfFortune.jpg",
+   "element": "火",
+   "astro": "木星",
+   "numerology": "10 — 大阿卡纳序列第 10 阶",
+   "keywords_up": [
+    "转机",
+    "循环",
+    "命运"
+   ],
+   "keywords_rev": [
+    "逆转",
+    "抗拒变化",
+    "时运不济"
+   ],
+   "pairs": [],
+   "tags": [
+    "火元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-11",
+   "name_cn": "正义",
+   "name_en": "Justice",
+   "arcana": "major",
+   "suit": null,
+   "number": 11,
+   "image": "Cards-jpg/11-Justice.jpg",
+   "element": "风",
+   "astro": "天秤座",
+   "numerology": "11 — 大阿卡纳序列第 11 阶",
+   "keywords_up": [
+    "公正",
+    "因果",
+    "责任"
+   ],
+   "keywords_rev": [
+    "偏颇",
+    "逃避责任",
+    "失衡"
+   ],
+   "pairs": [
+    "major-14"
+   ],
+   "tags": [
+    "风元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-12",
+   "name_cn": "倒吊人",
+   "name_en": "The Hanged Man",
+   "arcana": "major",
+   "suit": null,
+   "number": 12,
+   "image": "Cards-jpg/12-TheHangedMan.jpg",
+   "element": "水",
+   "astro": "海王星",
+   "numerology": "12 — 大阿卡纳序列第 12 阶",
+   "keywords_up": [
+    "悬置",
+    "换位",
+    "牺牲"
+   ],
+   "keywords_rev": [
+    "徒劳的牺牲",
+    "拖延",
+    "抗拒"
+   ],
+   "pairs": [],
+   "tags": [
+    "水元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-13",
+   "name_cn": "死神",
+   "name_en": "Death",
+   "arcana": "major",
+   "suit": null,
+   "number": 13,
+   "image": "Cards-jpg/13-Death.jpg",
+   "element": "水",
+   "astro": "天蝎座",
+   "numerology": "13 — 大阿卡纳序列第 13 阶",
+   "keywords_up": [
+    "结束",
+    "转化",
+    "断舍"
+   ],
+   "keywords_rev": [
+    "抗拒结束",
+    "停滞",
+    "缓慢转变"
+   ],
+   "pairs": [
+    "major-16"
+   ],
+   "tags": [
+    "水元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-14",
+   "name_cn": "节制",
+   "name_en": "Temperance",
+   "arcana": "major",
+   "suit": null,
+   "number": 14,
+   "image": "Cards-jpg/14-Temperance.jpg",
+   "element": "火",
+   "astro": "射手座",
+   "numerology": "14 — 大阿卡纳序列第 14 阶",
+   "keywords_up": [
+    "调和",
+    "节制",
+    "整合"
+   ],
+   "keywords_rev": [
+    "失衡",
+    "极端",
+    "缺乏耐心"
+   ],
+   "pairs": [],
+   "tags": [
+    "火元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-15",
+   "name_cn": "恶魔",
+   "name_en": "The Devil",
+   "arcana": "major",
+   "suit": null,
+   "number": 15,
+   "image": "Cards-jpg/15-TheDevil.jpg",
+   "element": "土",
+   "astro": "摩羯座",
+   "numerology": "15 — 大阿卡纳序列第 15 阶",
+   "keywords_up": [
+    "束缚",
+    "欲望",
+    "阴影"
+   ],
+   "keywords_rev": [
+    "挣脱",
+    "觉察",
+    "依赖加深"
+   ],
+   "pairs": [],
+   "tags": [
+    "土元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-16",
+   "name_cn": "高塔",
+   "name_en": "The Tower",
+   "arcana": "major",
+   "suit": null,
+   "number": 16,
+   "image": "Cards-jpg/16-TheTower.jpg",
+   "element": "火",
+   "astro": "火星",
+   "numerology": "16 — 大阿卡纳序列第 16 阶",
+   "keywords_up": [
+    "崩塌",
+    "突变",
+    "真相"
+   ],
+   "keywords_rev": [
+    "缓慢瓦解",
+    "逃避危机",
+    "余震"
+   ],
+   "pairs": [
+    "major-13"
+   ],
+   "tags": [
+    "火元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-17",
+   "name_cn": "星星",
+   "name_en": "The Star",
+   "arcana": "major",
+   "suit": null,
+   "number": 17,
+   "image": "Cards-jpg/17-TheStar.jpg",
+   "element": "风",
+   "astro": "水瓶座",
+   "numerology": "17 — 大阿卡纳序列第 17 阶",
+   "keywords_up": [
+    "希望",
+    "疗愈",
+    "指引"
+   ],
+   "keywords_rev": [
+    "失望",
+    "信心动摇",
+    "自我怀疑"
+   ],
+   "pairs": [],
+   "tags": [
+    "风元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-18",
+   "name_cn": "月亮",
+   "name_en": "The Moon",
+   "arcana": "major",
+   "suit": null,
+   "number": 18,
+   "image": "Cards-jpg/18-TheMoon.jpg",
+   "element": "水",
+   "astro": "双鱼座",
+   "numerology": "18 — 大阿卡纳序列第 18 阶",
+   "keywords_up": [
+    "幻象",
+    "潜意识",
+    "不安"
+   ],
+   "keywords_rev": [
+    "真相浮现",
+    "恐惧消散",
+    "自欺加深"
+   ],
+   "pairs": [],
+   "tags": [
+    "水元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-19",
+   "name_cn": "太阳",
+   "name_en": "The Sun",
+   "arcana": "major",
+   "suit": null,
+   "number": 19,
+   "image": "Cards-jpg/19-TheSun.jpg",
+   "element": "火",
+   "astro": "太阳",
+   "numerology": "19 — 大阿卡纳序列第 19 阶",
+   "keywords_up": [
+    "喜悦",
+    "清晰",
+    "生命力"
+   ],
+   "keywords_rev": [
+    "短暂低落",
+    "过度乐观",
+    "延迟的成功"
+   ],
+   "pairs": [],
+   "tags": [
+    "火元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-20",
+   "name_cn": "审判",
+   "name_en": "Judgement",
+   "arcana": "major",
+   "suit": null,
+   "number": 20,
+   "image": "Cards-jpg/20-Judgement.jpg",
+   "element": "火",
+   "astro": "冥王星",
+   "numerology": "20 — 大阿卡纳序列第 20 阶",
+   "keywords_up": [
+    "觉醒",
+    "清算",
+    "召唤"
+   ],
+   "keywords_rev": [
+    "自我批判",
+    "拒绝面对",
+    "错过召唤"
+   ],
+   "pairs": [],
+   "tags": [
+    "火元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "major-21",
+   "name_cn": "世界",
+   "name_en": "The World",
+   "arcana": "major",
+   "suit": null,
+   "number": 21,
+   "image": "Cards-jpg/21-TheWorld.jpg",
+   "element": "土",
+   "astro": "土星",
+   "numerology": "21 — 大阿卡纳序列第 21 阶",
+   "keywords_up": [
+    "完成",
+    "圆满",
+    "整合"
+   ],
+   "keywords_rev": [
+    "未竟",
+    "拖延",
+    "循环未闭合"
+   ],
+   "pairs": [],
+   "tags": [
+    "土元素",
+    "大阿卡纳"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "wands-01",
+   "name_cn": "权杖一",
+   "name_en": "Ace of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "suit_cn": "权杖",
+   "number": 1,
+   "image": "Cards-jpg/Wands01.jpg",
+   "element": "火",
+   "astro": "",
+   "numerology": "1 — 纯粹的起点与潜能",
+   "suit_theme": "行动、意志、创造、事业动能",
+   "keywords_up": [
+    "火花",
+    "新机会",
+    "灵感"
+   ],
+   "keywords_rev": [
+    "延迟",
+    "动力不足",
+    "方向不明"
+   ],
+   "pairs": [],
+   "tags": [
+    "火元素",
+    "权杖",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "wands-02",
+   "name_cn": "权杖二",
+   "name_en": "Two of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "suit_cn": "权杖",
+   "number": 2,
+   "image": "Cards-jpg/Wands02.jpg",
+   "element": "火",
+   "astro": "",
+   "numerology": "2 — 二元、对照与关系",
+   "suit_theme": "行动、意志、创造、事业动能",
+   "keywords_up": [
+    "规划",
+    "远景",
+    "抉择"
+   ],
+   "keywords_rev": [
+    "犹豫",
+    "格局受限",
+    "计划落空"
+   ],
+   "pairs": [],
+   "tags": [
+    "火元素",
+    "权杖",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "wands-03",
+   "name_cn": "权杖三",
+   "name_en": "Three of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "suit_cn": "权杖",
+   "number": 3,
+   "image": "Cards-jpg/Wands03.jpg",
+   "element": "火",
+   "astro": "",
+   "numerology": "3 — 结合后的生长与表达",
+   "suit_theme": "行动、意志、创造、事业动能",
+   "keywords_up": [
+    "拓展",
+    "等待回报",
+    "远见"
+   ],
+   "keywords_rev": [
+    "延误",
+    "短视",
+    "协作受阻"
+   ],
+   "pairs": [],
+   "tags": [
+    "火元素",
+    "权杖",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "wands-04",
+   "name_cn": "权杖四",
+   "name_en": "Four of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "suit_cn": "权杖",
+   "number": 4,
+   "image": "Cards-jpg/Wands04.jpg",
+   "element": "火",
+   "astro": "",
+   "numerology": "4 — 结构、稳定与固化",
+   "suit_theme": "行动、意志、创造、事业动能",
+   "keywords_up": [
+    "稳定",
+    "庆祝",
+    "归属"
+   ],
+   "keywords_rev": [
+    "根基未稳",
+    "过渡期",
+    "内部矛盾"
+   ],
+   "pairs": [
+    "cups-03"
+   ],
+   "tags": [
+    "火元素",
+    "权杖",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "wands-05",
+   "name_cn": "权杖五",
+   "name_en": "Five of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "suit_cn": "权杖",
+   "number": 5,
+   "image": "Cards-jpg/Wands05.jpg",
+   "element": "火",
+   "astro": "",
+   "numerology": "5 — 打破平衡的冲突与考验",
+   "suit_theme": "行动、意志、创造、事业动能",
+   "keywords_up": [
+    "竞争",
+    "冲突",
+    "试炼"
+   ],
+   "keywords_rev": [
+    "内耗",
+    "回避冲突",
+    "无谓争执"
+   ],
+   "pairs": [
+    "swords-05"
+   ],
+   "tags": [
+    "火元素",
+    "权杖",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "wands-06",
+   "name_cn": "权杖六",
+   "name_en": "Six of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "suit_cn": "权杖",
+   "number": 6,
+   "image": "Cards-jpg/Wands06.jpg",
+   "element": "火",
+   "astro": "",
+   "numerology": "6 — 和谐、给予与调整",
+   "suit_theme": "行动、意志、创造、事业动能",
+   "keywords_up": [
+    "胜利",
+    "被认可",
+    "领导"
+   ],
+   "keywords_rev": [
+    "挫败",
+    "虚名",
+    "缺乏支持"
+   ],
+   "pairs": [],
+   "tags": [
+    "火元素",
+    "权杖",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "wands-07",
+   "name_cn": "权杖七",
+   "name_en": "Seven of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "suit_cn": "权杖",
+   "number": 7,
+   "image": "Cards-jpg/Wands07.jpg",
+   "element": "火",
+   "astro": "",
+   "numerology": "7 — 内在评估与坚持",
+   "suit_theme": "行动、意志、创造、事业动能",
+   "keywords_up": [
+    "防守",
+    "坚持立场",
+    "以寡敌众"
+   ],
+   "keywords_rev": [
+    "力不从心",
+    "放弃",
+    "被压倒"
+   ],
+   "pairs": [],
+   "tags": [
+    "火元素",
+    "权杖",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "wands-08",
+   "name_cn": "权杖八",
+   "name_en": "Eight of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "suit_cn": "权杖",
+   "number": 8,
+   "image": "Cards-jpg/Wands08.jpg",
+   "element": "火",
+   "astro": "",
+   "numerology": "8 — 力量的运用与推进",
+   "suit_theme": "行动、意志、创造、事业动能",
+   "keywords_up": [
+    "迅速",
+    "进展",
+    "消息"
+   ],
+   "keywords_rev": [
+    "拖延",
+    "混乱",
+    "错过时机"
+   ],
+   "pairs": [],
+   "tags": [
+    "火元素",
+    "权杖",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "wands-09",
+   "name_cn": "权杖九",
+   "name_en": "Nine of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "suit_cn": "权杖",
+   "number": 9,
+   "image": "Cards-jpg/Wands09.jpg",
+   "element": "火",
+   "astro": "",
+   "numerology": "9 — 接近完成的强化状态",
+   "suit_theme": "行动、意志、创造、事业动能",
+   "keywords_up": [
+    "戒备",
+    "带伤坚持",
+    "最后一关"
+   ],
+   "keywords_rev": [
+    "偏执",
+    "耗竭",
+    "在终点前放弃"
+   ],
+   "pairs": [],
+   "tags": [
+    "火元素",
+    "权杖",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "wands-10",
+   "name_cn": "权杖十",
+   "name_en": "Ten of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "suit_cn": "权杖",
+   "number": 10,
+   "image": "Cards-jpg/Wands10.jpg",
+   "element": "火",
+   "astro": "",
+   "numerology": "10 — 循环的终点与溢出",
+   "suit_theme": "行动、意志、创造、事业动能",
+   "keywords_up": [
+    "重担",
+    "超载",
+    "责任"
+   ],
+   "keywords_rev": [
+    "卸下",
+    "分担",
+    "硬撑"
+   ],
+   "pairs": [],
+   "tags": [
+    "火元素",
+    "权杖",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "wands-11",
+   "name_cn": "权杖侍从",
+   "name_en": "Page of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "suit_cn": "权杖",
+   "number": 11,
+   "image": "Cards-jpg/Wands11.jpg",
+   "element": "火",
+   "astro": "",
+   "numerology": "宫廷 · 侍从 — 学习者，元素的初生态",
+   "suit_theme": "行动、意志、创造、事业动能",
+   "keywords_up": [
+    "热情探索",
+    "消息",
+    "学徒心态"
+   ],
+   "keywords_rev": [
+    "三分钟热度",
+    "坏消息",
+    "不成熟"
+   ],
+   "pairs": [],
+   "tags": [
+    "火元素",
+    "权杖",
+    "宫廷牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "wands-12",
+   "name_cn": "权杖骑士",
+   "name_en": "Knight of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "suit_cn": "权杖",
+   "number": 12,
+   "image": "Cards-jpg/Wands12.jpg",
+   "element": "火",
+   "astro": "",
+   "numerology": "宫廷 · 骑士 — 行动者，元素的外放态",
+   "suit_theme": "行动、意志、创造、事业动能",
+   "keywords_up": [
+    "冲劲",
+    "行动",
+    "冒险"
+   ],
+   "keywords_rev": [
+    "鲁莽",
+    "虎头蛇尾",
+    "暴躁"
+   ],
+   "pairs": [],
+   "tags": [
+    "火元素",
+    "权杖",
+    "宫廷牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "wands-13",
+   "name_cn": "权杖王后",
+   "name_en": "Queen of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "suit_cn": "权杖",
+   "number": 13,
+   "image": "Cards-jpg/Wands13.jpg",
+   "element": "火",
+   "astro": "",
+   "numerology": "宫廷 · 王后 — 承载者，元素的内化态",
+   "suit_theme": "行动、意志、创造、事业动能",
+   "keywords_up": [
+    "自信",
+    "魅力",
+    "热忱"
+   ],
+   "keywords_rev": [
+    "掌控欲",
+    "嫉妒",
+    "消耗他人"
+   ],
+   "pairs": [],
+   "tags": [
+    "火元素",
+    "权杖",
+    "宫廷牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "wands-14",
+   "name_cn": "权杖国王",
+   "name_en": "King of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "suit_cn": "权杖",
+   "number": 14,
+   "image": "Cards-jpg/Wands14.jpg",
+   "element": "火",
+   "astro": "",
+   "numerology": "宫廷 · 国王 — 掌控者，元素的成熟态",
+   "suit_theme": "行动、意志、创造、事业动能",
+   "keywords_up": [
+    "远见",
+    "领导",
+    "决断"
+   ],
+   "keywords_rev": [
+    "专断",
+    "傲慢",
+    "冲动决策"
+   ],
+   "pairs": [],
+   "tags": [
+    "火元素",
+    "权杖",
+    "宫廷牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "cups-01",
+   "name_cn": "圣杯一",
+   "name_en": "Ace of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "suit_cn": "圣杯",
+   "number": 1,
+   "image": "Cards-jpg/Cups01.jpg",
+   "element": "水",
+   "astro": "",
+   "numerology": "1 — 纯粹的起点与潜能",
+   "suit_theme": "情感、关系、直觉、内在体验",
+   "keywords_up": [
+    "情感萌发",
+    "爱",
+    "直觉涌现"
+   ],
+   "keywords_rev": [
+    "情感封闭",
+    "空虚",
+    "单向付出"
+   ],
+   "pairs": [],
+   "tags": [
+    "水元素",
+    "圣杯",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "cups-02",
+   "name_cn": "圣杯二",
+   "name_en": "Two of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "suit_cn": "圣杯",
+   "number": 2,
+   "image": "Cards-jpg/Cups02.jpg",
+   "element": "水",
+   "astro": "",
+   "numerology": "2 — 二元、对照与关系",
+   "suit_theme": "情感、关系、直觉、内在体验",
+   "keywords_up": [
+    "结合",
+    "互惠",
+    "吸引"
+   ],
+   "keywords_rev": [
+    "失衡",
+    "误解",
+    "关系破裂"
+   ],
+   "pairs": [],
+   "tags": [
+    "水元素",
+    "圣杯",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "cups-03",
+   "name_cn": "圣杯三",
+   "name_en": "Three of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "suit_cn": "圣杯",
+   "number": 3,
+   "image": "Cards-jpg/Cups03.jpg",
+   "element": "水",
+   "astro": "",
+   "numerology": "3 — 结合后的生长与表达",
+   "suit_theme": "情感、关系、直觉、内在体验",
+   "keywords_up": [
+    "友谊",
+    "庆祝",
+    "共享"
+   ],
+   "keywords_rev": [
+    "过度社交",
+    "闲言",
+    "疏离"
+   ],
+   "pairs": [
+    "wands-04"
+   ],
+   "tags": [
+    "水元素",
+    "圣杯",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "cups-04",
+   "name_cn": "圣杯四",
+   "name_en": "Four of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "suit_cn": "圣杯",
+   "number": 4,
+   "image": "Cards-jpg/Cups04.jpg",
+   "element": "水",
+   "astro": "",
+   "numerology": "4 — 结构、稳定与固化",
+   "suit_theme": "情感、关系、直觉、内在体验",
+   "keywords_up": [
+    "倦怠",
+    "忽视",
+    "内省"
+   ],
+   "keywords_rev": [
+    "重新振作",
+    "接受邀请",
+    "走出停滞"
+   ],
+   "pairs": [],
+   "tags": [
+    "水元素",
+    "圣杯",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "cups-05",
+   "name_cn": "圣杯五",
+   "name_en": "Five of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "suit_cn": "圣杯",
+   "number": 5,
+   "image": "Cards-jpg/Cups05.jpg",
+   "element": "水",
+   "astro": "",
+   "numerology": "5 — 打破平衡的冲突与考验",
+   "suit_theme": "情感、关系、直觉、内在体验",
+   "keywords_up": [
+    "失落",
+    "遗憾",
+    "聚焦损失"
+   ],
+   "keywords_rev": [
+    "接受",
+    "疗愈",
+    "看见剩余"
+   ],
+   "pairs": [
+    "swords-03"
+   ],
+   "tags": [
+    "水元素",
+    "圣杯",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "cups-06",
+   "name_cn": "圣杯六",
+   "name_en": "Six of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "suit_cn": "圣杯",
+   "number": 6,
+   "image": "Cards-jpg/Cups06.jpg",
+   "element": "水",
+   "astro": "",
+   "numerology": "6 — 和谐、给予与调整",
+   "suit_theme": "情感、关系、直觉、内在体验",
+   "keywords_up": [
+    "怀旧",
+    "纯真",
+    "旧识"
+   ],
+   "keywords_rev": [
+    "困于过去",
+    "理想化童年",
+    "终于放下"
+   ],
+   "pairs": [],
+   "tags": [
+    "水元素",
+    "圣杯",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "cups-07",
+   "name_cn": "圣杯七",
+   "name_en": "Seven of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "suit_cn": "圣杯",
+   "number": 7,
+   "image": "Cards-jpg/Cups07.jpg",
+   "element": "水",
+   "astro": "",
+   "numerology": "7 — 内在评估与坚持",
+   "suit_theme": "情感、关系、直觉、内在体验",
+   "keywords_up": [
+    "幻想",
+    "选择过多",
+    "迷惑"
+   ],
+   "keywords_rev": [
+    "看清",
+    "聚焦",
+    "务实"
+   ],
+   "pairs": [],
+   "tags": [
+    "水元素",
+    "圣杯",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "cups-08",
+   "name_cn": "圣杯八",
+   "name_en": "Eight of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "suit_cn": "圣杯",
+   "number": 8,
+   "image": "Cards-jpg/Cups08.jpg",
+   "element": "水",
+   "astro": "",
+   "numerology": "8 — 力量的运用与推进",
+   "suit_theme": "情感、关系、直觉、内在体验",
+   "keywords_up": [
+    "离开",
+    "放下",
+    "寻找意义"
+   ],
+   "keywords_rev": [
+    "徘徊",
+    "不甘",
+    "被困原地"
+   ],
+   "pairs": [
+    "swords-06"
+   ],
+   "tags": [
+    "水元素",
+    "圣杯",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "cups-09",
+   "name_cn": "圣杯九",
+   "name_en": "Nine of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "suit_cn": "圣杯",
+   "number": 9,
+   "image": "Cards-jpg/Cups09.jpg",
+   "element": "水",
+   "astro": "",
+   "numerology": "9 — 接近完成的强化状态",
+   "suit_theme": "情感、关系、直觉、内在体验",
+   "keywords_up": [
+    "满足",
+    "愿望达成",
+    "享受"
+   ],
+   "keywords_rev": [
+    "表面满足",
+    "贪求",
+    "空洞"
+   ],
+   "pairs": [],
+   "tags": [
+    "水元素",
+    "圣杯",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "cups-10",
+   "name_cn": "圣杯十",
+   "name_en": "Ten of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "suit_cn": "圣杯",
+   "number": 10,
+   "image": "Cards-jpg/Cups10.jpg",
+   "element": "水",
+   "astro": "",
+   "numerology": "10 — 循环的终点与溢出",
+   "suit_theme": "情感、关系、直觉、内在体验",
+   "keywords_up": [
+    "圆满",
+    "家庭",
+    "情感归宿"
+   ],
+   "keywords_rev": [
+    "关系裂痕",
+    "表面和谐",
+    "期待落差"
+   ],
+   "pairs": [],
+   "tags": [
+    "水元素",
+    "圣杯",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "cups-11",
+   "name_cn": "圣杯侍从",
+   "name_en": "Page of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "suit_cn": "圣杯",
+   "number": 11,
+   "image": "Cards-jpg/Cups11.jpg",
+   "element": "水",
+   "astro": "",
+   "numerology": "宫廷 · 侍从 — 学习者，元素的初生态",
+   "suit_theme": "情感、关系、直觉、内在体验",
+   "keywords_up": [
+    "情感讯息",
+    "灵感",
+    "天真"
+   ],
+   "keywords_rev": [
+    "情绪化",
+    "逃避",
+    "表达不成熟"
+   ],
+   "pairs": [],
+   "tags": [
+    "水元素",
+    "圣杯",
+    "宫廷牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "cups-12",
+   "name_cn": "圣杯骑士",
+   "name_en": "Knight of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "suit_cn": "圣杯",
+   "number": 12,
+   "image": "Cards-jpg/Cups12.jpg",
+   "element": "水",
+   "astro": "",
+   "numerology": "宫廷 · 骑士 — 行动者，元素的外放态",
+   "suit_theme": "情感、关系、直觉、内在体验",
+   "keywords_up": [
+    "追求",
+    "浪漫提议",
+    "理想主义"
+   ],
+   "keywords_rev": [
+    "空头承诺",
+    "耽溺幻想",
+    "被动"
+   ],
+   "pairs": [],
+   "tags": [
+    "水元素",
+    "圣杯",
+    "宫廷牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "cups-13",
+   "name_cn": "圣杯王后",
+   "name_en": "Queen of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "suit_cn": "圣杯",
+   "number": 13,
+   "image": "Cards-jpg/Cups13.jpg",
+   "element": "水",
+   "astro": "",
+   "numerology": "宫廷 · 王后 — 承载者，元素的内化态",
+   "suit_theme": "情感、关系、直觉、内在体验",
+   "keywords_up": [
+    "共情",
+    "包容",
+    "直觉"
+   ],
+   "keywords_rev": [
+    "情绪淹没",
+    "依赖",
+    "边界模糊"
+   ],
+   "pairs": [],
+   "tags": [
+    "水元素",
+    "圣杯",
+    "宫廷牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "cups-14",
+   "name_cn": "圣杯国王",
+   "name_en": "King of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "suit_cn": "圣杯",
+   "number": 14,
+   "image": "Cards-jpg/Cups14.jpg",
+   "element": "水",
+   "astro": "",
+   "numerology": "宫廷 · 国王 — 掌控者，元素的成熟态",
+   "suit_theme": "情感、关系、直觉、内在体验",
+   "keywords_up": [
+    "情绪成熟",
+    "体贴",
+    "稳住场面"
+   ],
+   "keywords_rev": [
+    "压抑",
+    "操控",
+    "情绪失衡"
+   ],
+   "pairs": [],
+   "tags": [
+    "水元素",
+    "圣杯",
+    "宫廷牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "swords-01",
+   "name_cn": "宝剑一",
+   "name_en": "Ace of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "suit_cn": "宝剑",
+   "number": 1,
+   "image": "Cards-jpg/Swords01.jpg",
+   "element": "风",
+   "astro": "",
+   "numerology": "1 — 纯粹的起点与潜能",
+   "suit_theme": "思维、沟通、冲突、真相",
+   "keywords_up": [
+    "清晰",
+    "真相",
+    "突破"
+   ],
+   "keywords_rev": [
+    "混乱",
+    "误判",
+    "言语伤人"
+   ],
+   "pairs": [],
+   "tags": [
+    "风元素",
+    "宝剑",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "swords-02",
+   "name_cn": "宝剑二",
+   "name_en": "Two of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "suit_cn": "宝剑",
+   "number": 2,
+   "image": "Cards-jpg/Swords02.jpg",
+   "element": "风",
+   "astro": "",
+   "numerology": "2 — 二元、对照与关系",
+   "suit_theme": "思维、沟通、冲突、真相",
+   "keywords_up": [
+    "僵局",
+    "回避决定",
+    "勉强平衡"
+   ],
+   "keywords_rev": [
+    "破局",
+    "被迫面对",
+    "信息不足"
+   ],
+   "pairs": [],
+   "tags": [
+    "风元素",
+    "宝剑",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "swords-03",
+   "name_cn": "宝剑三",
+   "name_en": "Three of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "suit_cn": "宝剑",
+   "number": 3,
+   "image": "Cards-jpg/Swords03.jpg",
+   "element": "风",
+   "astro": "",
+   "numerology": "3 — 结合后的生长与表达",
+   "suit_theme": "思维、沟通、冲突、真相",
+   "keywords_up": [
+    "心碎",
+    "痛苦真相",
+    "分离"
+   ],
+   "keywords_rev": [
+    "疗愈开始",
+    "释放",
+    "拒绝面对"
+   ],
+   "pairs": [
+    "cups-05"
+   ],
+   "tags": [
+    "风元素",
+    "宝剑",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "swords-04",
+   "name_cn": "宝剑四",
+   "name_en": "Four of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "suit_cn": "宝剑",
+   "number": 4,
+   "image": "Cards-jpg/Swords04.jpg",
+   "element": "风",
+   "astro": "",
+   "numerology": "4 — 结构、稳定与固化",
+   "suit_theme": "思维、沟通、冲突、真相",
+   "keywords_up": [
+    "休息",
+    "恢复",
+    "暂停"
+   ],
+   "keywords_rev": [
+    "重返",
+    "倦怠未解",
+    "被迫停下"
+   ],
+   "pairs": [],
+   "tags": [
+    "风元素",
+    "宝剑",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "swords-05",
+   "name_cn": "宝剑五",
+   "name_en": "Five of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "suit_cn": "宝剑",
+   "number": 5,
+   "image": "Cards-jpg/Swords05.jpg",
+   "element": "风",
+   "astro": "",
+   "numerology": "5 — 打破平衡的冲突与考验",
+   "suit_theme": "思维、沟通、冲突、真相",
+   "keywords_up": [
+    "惨胜",
+    "冲突",
+    "自我中心"
+   ],
+   "keywords_rev": [
+    "和解",
+    "放下胜负",
+    "余波"
+   ],
+   "pairs": [
+    "wands-05"
+   ],
+   "tags": [
+    "风元素",
+    "宝剑",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "swords-06",
+   "name_cn": "宝剑六",
+   "name_en": "Six of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "suit_cn": "宝剑",
+   "number": 6,
+   "image": "Cards-jpg/Swords06.jpg",
+   "element": "风",
+   "astro": "",
+   "numerology": "6 — 和谐、给予与调整",
+   "suit_theme": "思维、沟通、冲突、真相",
+   "keywords_up": [
+    "过渡",
+    "离开",
+    "渐好"
+   ],
+   "keywords_rev": [
+    "滞留",
+    "把旧问题带走",
+    "抗拒改变"
+   ],
+   "pairs": [
+    "cups-08"
+   ],
+   "tags": [
+    "风元素",
+    "宝剑",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "swords-07",
+   "name_cn": "宝剑七",
+   "name_en": "Seven of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "suit_cn": "宝剑",
+   "number": 7,
+   "image": "Cards-jpg/Swords07.jpg",
+   "element": "风",
+   "astro": "",
+   "numerology": "7 — 内在评估与坚持",
+   "suit_theme": "思维、沟通、冲突、真相",
+   "keywords_up": [
+    "策略",
+    "隐瞒",
+    "独行"
+   ],
+   "keywords_rev": [
+    "被揭露",
+    "自欺",
+    "归还"
+   ],
+   "pairs": [],
+   "tags": [
+    "风元素",
+    "宝剑",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "swords-08",
+   "name_cn": "宝剑八",
+   "name_en": "Eight of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "suit_cn": "宝剑",
+   "number": 8,
+   "image": "Cards-jpg/Swords08.jpg",
+   "element": "风",
+   "astro": "",
+   "numerology": "8 — 力量的运用与推进",
+   "suit_theme": "思维、沟通、冲突、真相",
+   "keywords_up": [
+    "受限",
+    "自缚",
+    "无力感"
+   ],
+   "keywords_rev": [
+    "松绑",
+    "看清限制",
+    "仍不敢动"
+   ],
+   "pairs": [
+    "swords-09"
+   ],
+   "tags": [
+    "风元素",
+    "宝剑",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "swords-09",
+   "name_cn": "宝剑九",
+   "name_en": "Nine of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "suit_cn": "宝剑",
+   "number": 9,
+   "image": "Cards-jpg/Swords09.jpg",
+   "element": "风",
+   "astro": "",
+   "numerology": "9 — 接近完成的强化状态",
+   "suit_theme": "思维、沟通、冲突、真相",
+   "keywords_up": [
+    "焦虑",
+    "失眠",
+    "恐惧放大"
+   ],
+   "keywords_rev": [
+    "面对",
+    "求助",
+    "噩梦缓解"
+   ],
+   "pairs": [
+    "swords-08"
+   ],
+   "tags": [
+    "风元素",
+    "宝剑",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "swords-10",
+   "name_cn": "宝剑十",
+   "name_en": "Ten of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "suit_cn": "宝剑",
+   "number": 10,
+   "image": "Cards-jpg/Swords10.jpg",
+   "element": "风",
+   "astro": "",
+   "numerology": "10 — 循环的终点与溢出",
+   "suit_theme": "思维、沟通、冲突、真相",
+   "keywords_up": [
+    "终结",
+    "背叛",
+    "触底"
+   ],
+   "keywords_rev": [
+    "复原",
+    "缓慢好转",
+    "拒绝翻篇"
+   ],
+   "pairs": [],
+   "tags": [
+    "风元素",
+    "宝剑",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "swords-11",
+   "name_cn": "宝剑侍从",
+   "name_en": "Page of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "suit_cn": "宝剑",
+   "number": 11,
+   "image": "Cards-jpg/Swords11.jpg",
+   "element": "风",
+   "astro": "",
+   "numerology": "宫廷 · 侍从 — 学习者，元素的初生态",
+   "suit_theme": "思维、沟通、冲突、真相",
+   "keywords_up": [
+    "好奇",
+    "观察",
+    "消息"
+   ],
+   "keywords_rev": [
+    "窥探",
+    "口舌",
+    "言之无物"
+   ],
+   "pairs": [],
+   "tags": [
+    "风元素",
+    "宝剑",
+    "宫廷牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "swords-12",
+   "name_cn": "宝剑骑士",
+   "name_en": "Knight of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "suit_cn": "宝剑",
+   "number": 12,
+   "image": "Cards-jpg/Swords12.jpg",
+   "element": "风",
+   "astro": "",
+   "numerology": "宫廷 · 骑士 — 行动者，元素的外放态",
+   "suit_theme": "思维、沟通、冲突、真相",
+   "keywords_up": [
+    "果断",
+    "直冲",
+    "辩才"
+   ],
+   "keywords_rev": [
+    "鲁莽",
+    "攻击性",
+    "缺乏后续"
+   ],
+   "pairs": [],
+   "tags": [
+    "风元素",
+    "宝剑",
+    "宫廷牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "swords-13",
+   "name_cn": "宝剑王后",
+   "name_en": "Queen of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "suit_cn": "宝剑",
+   "number": 13,
+   "image": "Cards-jpg/Swords13.jpg",
+   "element": "风",
+   "astro": "",
+   "numerology": "宫廷 · 王后 — 承载者，元素的内化态",
+   "suit_theme": "思维、沟通、冲突、真相",
+   "keywords_up": [
+    "理性",
+    "洞察",
+    "独立"
+   ],
+   "keywords_rev": [
+    "冷酷",
+    "苛评",
+    "防御性"
+   ],
+   "pairs": [],
+   "tags": [
+    "风元素",
+    "宝剑",
+    "宫廷牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "swords-14",
+   "name_cn": "宝剑国王",
+   "name_en": "King of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "suit_cn": "宝剑",
+   "number": 14,
+   "image": "Cards-jpg/Swords14.jpg",
+   "element": "风",
+   "astro": "",
+   "numerology": "宫廷 · 国王 — 掌控者，元素的成熟态",
+   "suit_theme": "思维、沟通、冲突、真相",
+   "keywords_up": [
+    "理智",
+    "权威",
+    "原则"
+   ],
+   "keywords_rev": [
+    "专制",
+    "教条",
+    "冷漠"
+   ],
+   "pairs": [],
+   "tags": [
+    "风元素",
+    "宝剑",
+    "宫廷牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "pentacles-01",
+   "name_cn": "星币一",
+   "name_en": "Ace of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "suit_cn": "星币",
+   "number": 1,
+   "image": "Cards-jpg/Pentacles01.jpg",
+   "element": "土",
+   "astro": "",
+   "numerology": "1 — 纯粹的起点与潜能",
+   "suit_theme": "物质、身体、金钱、务实进展",
+   "keywords_up": [
+    "物质机会",
+    "种子",
+    "务实起点"
+   ],
+   "keywords_rev": [
+    "错失机会",
+    "短视",
+    "计划落空"
+   ],
+   "pairs": [],
+   "tags": [
+    "土元素",
+    "星币",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "pentacles-02",
+   "name_cn": "星币二",
+   "name_en": "Two of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "suit_cn": "星币",
+   "number": 2,
+   "image": "Cards-jpg/Pentacles02.jpg",
+   "element": "土",
+   "astro": "",
+   "numerology": "2 — 二元、对照与关系",
+   "suit_theme": "物质、身体、金钱、务实进展",
+   "keywords_up": [
+    "平衡",
+    "灵活",
+    "多线并行"
+   ],
+   "keywords_rev": [
+    "失衡",
+    "过载",
+    "拆东补西"
+   ],
+   "pairs": [],
+   "tags": [
+    "土元素",
+    "星币",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "pentacles-03",
+   "name_cn": "星币三",
+   "name_en": "Three of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "suit_cn": "星币",
+   "number": 3,
+   "image": "Cards-jpg/Pentacles03.jpg",
+   "element": "土",
+   "astro": "",
+   "numerology": "3 — 结合后的生长与表达",
+   "suit_theme": "物质、身体、金钱、务实进展",
+   "keywords_up": [
+    "协作",
+    "技艺",
+    "被认可"
+   ],
+   "keywords_rev": [
+    "各自为政",
+    "品质妥协",
+    "配合不良"
+   ],
+   "pairs": [
+    "pentacles-08"
+   ],
+   "tags": [
+    "土元素",
+    "星币",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "pentacles-04",
+   "name_cn": "星币四",
+   "name_en": "Four of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "suit_cn": "星币",
+   "number": 4,
+   "image": "Cards-jpg/Pentacles04.jpg",
+   "element": "土",
+   "astro": "",
+   "numerology": "4 — 结构、稳定与固化",
+   "suit_theme": "物质、身体、金钱、务实进展",
+   "keywords_up": [
+    "保有",
+    "掌控",
+    "安全感"
+   ],
+   "keywords_rev": [
+    "吝啬",
+    "松手",
+    "失去掌控"
+   ],
+   "pairs": [],
+   "tags": [
+    "土元素",
+    "星币",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "pentacles-05",
+   "name_cn": "星币五",
+   "name_en": "Five of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "suit_cn": "星币",
+   "number": 5,
+   "image": "Cards-jpg/Pentacles05.jpg",
+   "element": "土",
+   "astro": "",
+   "numerology": "5 — 打破平衡的冲突与考验",
+   "suit_theme": "物质、身体、金钱、务实进展",
+   "keywords_up": [
+    "匮乏",
+    "被排除",
+    "困境"
+   ],
+   "keywords_rev": [
+    "转机",
+    "求助",
+    "走出寒冬"
+   ],
+   "pairs": [],
+   "tags": [
+    "土元素",
+    "星币",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "pentacles-06",
+   "name_cn": "星币六",
+   "name_en": "Six of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "suit_cn": "星币",
+   "number": 6,
+   "image": "Cards-jpg/Pentacles06.jpg",
+   "element": "土",
+   "astro": "",
+   "numerology": "6 — 和谐、给予与调整",
+   "suit_theme": "物质、身体、金钱、务实进展",
+   "keywords_up": [
+    "给予",
+    "互助",
+    "资源流动"
+   ],
+   "keywords_rev": [
+    "施舍",
+    "失衡的给予",
+    "附带条件"
+   ],
+   "pairs": [],
+   "tags": [
+    "土元素",
+    "星币",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "pentacles-07",
+   "name_cn": "星币七",
+   "name_en": "Seven of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "suit_cn": "星币",
+   "number": 7,
+   "image": "Cards-jpg/Pentacles07.jpg",
+   "element": "土",
+   "astro": "",
+   "numerology": "7 — 内在评估与坚持",
+   "suit_theme": "物质、身体、金钱、务实进展",
+   "keywords_up": [
+    "耐心",
+    "评估",
+    "中途检视"
+   ],
+   "keywords_rev": [
+    "急躁",
+    "投入无果",
+    "放弃太早"
+   ],
+   "pairs": [],
+   "tags": [
+    "土元素",
+    "星币",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "pentacles-08",
+   "name_cn": "星币八",
+   "name_en": "Eight of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "suit_cn": "星币",
+   "number": 8,
+   "image": "Cards-jpg/Pentacles08.jpg",
+   "element": "土",
+   "astro": "",
+   "numerology": "8 — 力量的运用与推进",
+   "suit_theme": "物质、身体、金钱、务实进展",
+   "keywords_up": [
+    "精进",
+    "专注",
+    "学徒之心"
+   ],
+   "keywords_rev": [
+    "敷衍",
+    "重复劳动",
+    "缺乏成长"
+   ],
+   "pairs": [
+    "pentacles-03"
+   ],
+   "tags": [
+    "土元素",
+    "星币",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "pentacles-09",
+   "name_cn": "星币九",
+   "name_en": "Nine of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "suit_cn": "星币",
+   "number": 9,
+   "image": "Cards-jpg/Pentacles09.jpg",
+   "element": "土",
+   "astro": "",
+   "numerology": "9 — 接近完成的强化状态",
+   "suit_theme": "物质、身体、金钱、务实进展",
+   "keywords_up": [
+    "自足",
+    "优雅",
+    "独立的成果"
+   ],
+   "keywords_rev": [
+    "依赖",
+    "炫耀",
+    "成果空洞"
+   ],
+   "pairs": [],
+   "tags": [
+    "土元素",
+    "星币",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "pentacles-10",
+   "name_cn": "星币十",
+   "name_en": "Ten of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "suit_cn": "星币",
+   "number": 10,
+   "image": "Cards-jpg/Pentacles10.jpg",
+   "element": "土",
+   "astro": "",
+   "numerology": "10 — 循环的终点与溢出",
+   "suit_theme": "物质、身体、金钱、务实进展",
+   "keywords_up": [
+    "传承",
+    "积累",
+    "家族"
+   ],
+   "keywords_rev": [
+    "家庭矛盾",
+    "财务不稳",
+    "短期思维"
+   ],
+   "pairs": [],
+   "tags": [
+    "土元素",
+    "星币",
+    "数字牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "pentacles-11",
+   "name_cn": "星币侍从",
+   "name_en": "Page of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "suit_cn": "星币",
+   "number": 11,
+   "image": "Cards-jpg/Pentacles11.jpg",
+   "element": "土",
+   "astro": "",
+   "numerology": "宫廷 · 侍从 — 学习者，元素的初生态",
+   "suit_theme": "物质、身体、金钱、务实进展",
+   "keywords_up": [
+    "学习",
+    "务实起步",
+    "机会消息"
+   ],
+   "keywords_rev": [
+    "拖延",
+    "不切实际",
+    "浪费机会"
+   ],
+   "pairs": [],
+   "tags": [
+    "土元素",
+    "星币",
+    "宫廷牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "pentacles-12",
+   "name_cn": "星币骑士",
+   "name_en": "Knight of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "suit_cn": "星币",
+   "number": 12,
+   "image": "Cards-jpg/Pentacles12.jpg",
+   "element": "土",
+   "astro": "",
+   "numerology": "宫廷 · 骑士 — 行动者，元素的外放态",
+   "suit_theme": "物质、身体、金钱、务实进展",
+   "keywords_up": [
+    "稳健",
+    "可靠",
+    "按部就班"
+   ],
+   "keywords_rev": [
+    "停滞",
+    "僵化",
+    "无聊"
+   ],
+   "pairs": [],
+   "tags": [
+    "土元素",
+    "星币",
+    "宫廷牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "pentacles-13",
+   "name_cn": "星币王后",
+   "name_en": "Queen of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "suit_cn": "星币",
+   "number": 13,
+   "image": "Cards-jpg/Pentacles13.jpg",
+   "element": "土",
+   "astro": "",
+   "numerology": "宫廷 · 王后 — 承载者，元素的内化态",
+   "suit_theme": "物质、身体、金钱、务实进展",
+   "keywords_up": [
+    "滋养",
+    "务实",
+    "丰盛"
+   ],
+   "keywords_rev": [
+    "过度操劳",
+    "物质焦虑",
+    "忽视自我"
+   ],
+   "pairs": [],
+   "tags": [
+    "土元素",
+    "星币",
+    "宫廷牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  },
+  {
+   "id": "pentacles-14",
+   "name_cn": "星币国王",
+   "name_en": "King of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "suit_cn": "星币",
+   "number": 14,
+   "image": "Cards-jpg/Pentacles14.jpg",
+   "element": "土",
+   "astro": "",
+   "numerology": "宫廷 · 国王 — 掌控者，元素的成熟态",
+   "suit_theme": "物质、身体、金钱、务实进展",
+   "keywords_up": [
+    "富足",
+    "掌控",
+    "事业成就"
+   ],
+   "keywords_rev": [
+    "固执",
+    "物质至上",
+    "控制"
+   ],
+   "pairs": [],
+   "tags": [
+    "土元素",
+    "星币",
+    "宫廷牌"
+   ],
+   "meaning_up": "",
+   "meaning_rev": "",
+   "domains": {
+    "love": "",
+    "career": "",
+    "self": "",
+    "advice": ""
+   },
+   "symbols": []
+  }
+ ]
+}

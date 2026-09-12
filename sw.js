@@ -1,4 +1,4 @@
-const BASE=new URL('./',self.location.href);const PREFIX='arcana-'+BASE.pathname;const CACHE=PREFIX+'v6';
+const BASE=new URL('./',self.location.href);const PREFIX='arcana-'+BASE.pathname;const CACHE=PREFIX+'v11';
 const FILES=['./','index.html','manifest.webmanifest','css/style.css','js/main.js','js/store.js','js/ui.js','js/ai/client.js','js/ai/prompts.js','js/views/cards.js','js/views/spreads.js','js/views/homework.js','js/views/chat.js','js/views/settings.js','data/cards.json','data/spreads.json','assets/apple-touch-icon.png','assets/icon-192.png','assets/icon-512.png'];
 self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(CACHE);await cache.addAll(FILES.map(p=>new URL(p,BASE).href));const res=await cache.match(new URL('data/cards.json',BASE));const data=await res.json();await cache.addAll([...data.cards.map(c=>c.image),data.cardBack].map(p=>new URL(p,BASE).href));await self.skipWaiting();})()));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const name of await caches.keys())if(name.startsWith(PREFIX)&&name!==CACHE)await caches.delete(name);await self.clients.claim();})()));
